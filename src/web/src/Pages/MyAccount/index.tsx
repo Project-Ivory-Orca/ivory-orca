@@ -6,7 +6,7 @@ const MyAccount: React.FC = () => {
     return (
         <Layout>
             <h1>MyAccount</h1>
-            {"account of all time"}
+            {"here is your account"}
         </Layout>
     );
 };

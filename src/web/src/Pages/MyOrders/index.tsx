@@ -5,7 +5,7 @@ const MyOrders: React.FC = () => {
     return (
         <Layout>
             <h1>My Orders</h1>
-            {"landing spot hiii"}
+            {"view past orders"}
         </Layout>
     );
 };
