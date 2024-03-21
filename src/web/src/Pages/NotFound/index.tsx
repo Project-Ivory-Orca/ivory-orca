@@ -5,7 +5,7 @@ const NotFound: React.FC = () => {
     return (
         <Layout>
             <h1>Not Found</h1>
-            {"where are you"}
+            {"page not found"}
         </Layout>
     );
 };
