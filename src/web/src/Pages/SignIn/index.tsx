@@ -5,7 +5,7 @@ import Layout from "../../Components/Layout";
 const SignIn: React.FC = () => {
     return (
         <Layout>
-            <h1>SignIn</h1>
+            <h1>Sign In</h1>
             {"Create Account"}
         </Layout>
     );
