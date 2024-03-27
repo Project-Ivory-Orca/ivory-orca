@@ -16,27 +16,21 @@ const NavBar = () => {
                      </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/clothing"
+                    <NavLink to="/My Account"
                         className={({isActive}) => (isActive ? activeStyle : undefined)}>
-                        Clothing
+                        My Account
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/electronics"
+                    <NavLink to="/My Order"
                         className={({isActive}) => (isActive ? activeStyle : undefined)}>
-                        Electronics
+                        My Order
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/T Shirts"
+                    <NavLink to="/My Orders"
                         className={({isActive}) => (isActive ? activeStyle : undefined)}>
-                        T Shirts
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink to="/Hoodies"
-                        className={({isActive}) => (isActive ? activeStyle : undefined)}>
-                        Hoodies
+                        My Orders
                     </NavLink>
                 </li>
                 <li>
@@ -49,6 +43,12 @@ const NavBar = () => {
                     <NavLink to="/Clearance"
                         className={({isActive}) => (isActive ? activeStyle : undefined)}>
                         Clearance
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/Sign-in"
+                        className={({isActive}) => (isActive ? activeStyle : undefined)}>
+                        Sign in
                     </NavLink>
                 </li>
             </ul>
