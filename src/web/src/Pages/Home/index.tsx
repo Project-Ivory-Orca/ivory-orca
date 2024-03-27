@@ -1,4 +1,4 @@
-import Layout from "/Users/zachskufca/Documents/ACTMIS 4630/ivory-orca/src/web/src/Components/Layout"
+import Layout from "../../Components/Layout";
 
 
 const Home: React.FC = () => {

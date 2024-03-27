@@ -7,9 +7,9 @@ const NavBar = () => {
         <nav className="flex justify-between items-center fixed z-10 w-full y-5 px-8 text-md front-light top-0">
             <ul className="flex items-center gap-3">
                 <li className="font-semibold text-lg">
-                    <NavLink to="/">"ivory-orca"</NavLink>
+                    <NavLink to="/">Ivory-Orca</NavLink>
                 </li>
-                <li>c
+                <li>
                     <NavLink to ="/" 
                         className={({isActive}) => (isActive ? activeStyle : undefined)}>
                         All
