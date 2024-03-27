@@ -13,7 +13,7 @@ const AppRoutes = () => {
     {path: '/' , element:  <Home/>},
     {path: '/My Account' , element:  <MyAccount/>},
     {path: '/My Orders' , element:  <MyOrders/>},
-    {path: '/Sign in' , element:  <SignIn/>},
+    {path: '/Sign-in' , element:  <SignIn/>},
     {path: '*' , element:  <NotFound/>},
   ]);
   return routes;
