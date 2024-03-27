@@ -28,25 +28,25 @@ const NavBar = () => {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/clothing"
+                    <NavLink to="/T Shirts"
                         className={({isActive}) => (isActive ? activeStyle : undefined)}>
                         T Shirts
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/clothing"
+                    <NavLink to="/Hoodies"
                         className={({isActive}) => (isActive ? activeStyle : undefined)}>
                         Hoodies
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/clothing"
+                    <NavLink to="/Jerseys"
                         className={({isActive}) => (isActive ? activeStyle : undefined)}>
                         Jerseys
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/clothing"
+                    <NavLink to="/Clearance"
                         className={({isActive}) => (isActive ? activeStyle : undefined)}>
                         Clearance
                     </NavLink>
