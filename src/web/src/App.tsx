@@ -11,9 +11,9 @@ import NavBar from './Components/Navbar/index'
 const AppRoutes = () => {
   let routes = useRoutes([
     {path: '/' , element:  <Home/>},
-    {path: '/my-account' , element:  <MyAccount/>},
-    {path: '/my-orders' , element:  <MyOrders/>},
-    {path: 'sign-in' , element:  <SignIn/>},
+    {path: '/My Account' , element:  <MyAccount/>},
+    {path: '/My Orders' , element:  <MyOrders/>},
+    {path: '/Sign in' , element:  <SignIn/>},
     {path: '*' , element:  <NotFound/>},
   ]);
   return routes;
