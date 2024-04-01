@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ivory.orca.Api", "ivory.orc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ivory.orca.Domain", "ivory.orca.Domain\ivory.orca.Domain.csproj", "{BB35C911-DE6D-4E6E-8964-BDDF0E36899C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ivory.orca.Data", "ivory.orca.Data\ivory.orca.Data.csproj", "{D2A049BE-8269-4662-98CC-77EE09E91E57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{BB35C911-DE6D-4E6E-8964-BDDF0E36899C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB35C911-DE6D-4E6E-8964-BDDF0E36899C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB35C911-DE6D-4E6E-8964-BDDF0E36899C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A049BE-8269-4662-98CC-77EE09E91E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A049BE-8269-4662-98CC-77EE09E91E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A049BE-8269-4662-98CC-77EE09E91E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A049BE-8269-4662-98CC-77EE09E91E57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
