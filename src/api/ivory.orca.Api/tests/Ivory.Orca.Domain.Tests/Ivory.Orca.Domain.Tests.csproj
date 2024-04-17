@@ -26,7 +26,7 @@
 
 
   <ItemGroup>
-  <ProjectReference Include="../../../ivory.orca.domain/ivory.orca.domain.csproj" />
+  <ProjectReference Include="../../../ivory.orca.Domain/ivory.orca.domain.csproj" />
   </ItemGroup> 
 
 </Project>
