@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ivory.orca.Api", "ivory.orc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2D5874CB-801E-4502-88A4-7D3320139288}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "{Ivory.Orca}.Domain.Tests", "ivory.orca.Api\tests\{Ivory.Orca}.Domain.Tests\{Ivory.Orca}.Domain.Tests.csproj", "{62919B54-6D3F-4FE7-94B6-7E6173F9AD16}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ivory.Orca.Domain.Tests", "ivory.orca.Api\tests\Ivory.Orca.Domain.Tests\Ivory.Orca.Domain.Tests.csproj", "{62919B54-6D3F-4FE7-94B6-7E6173F9AD16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
