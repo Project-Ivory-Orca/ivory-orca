@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ivory.orca.Domain", "ivory.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ivory.orca.Data", "ivory.orca.Data\ivory.orca.Data.csproj", "{D2A049BE-8269-4662-98CC-77EE09E91E57}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ivory.orca.Api", "ivory.orca.Api", "{8E020A5B-E6DA-444C-8667-887CD88DB4EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2D5874CB-801E-4502-88A4-7D3320139288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "{Ivory.Orca}.Domain.Tests", "ivory.orca.Api\tests\{Ivory.Orca}.Domain.Tests\{Ivory.Orca}.Domain.Tests.csproj", "{62919B54-6D3F-4FE7-94B6-7E6173F9AD16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +36,14 @@ Global
 		{D2A049BE-8269-4662-98CC-77EE09E91E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2A049BE-8269-4662-98CC-77EE09E91E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2A049BE-8269-4662-98CC-77EE09E91E57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62919B54-6D3F-4FE7-94B6-7E6173F9AD16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62919B54-6D3F-4FE7-94B6-7E6173F9AD16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62919B54-6D3F-4FE7-94B6-7E6173F9AD16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62919B54-6D3F-4FE7-94B6-7E6173F9AD16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AFB479A2-5F31-4921-A6FA-DF68B43E84FB} = {8E020A5B-E6DA-444C-8667-887CD88DB4EE}
+		{2D5874CB-801E-4502-88A4-7D3320139288} = {8E020A5B-E6DA-444C-8667-887CD88DB4EE}
+		{62919B54-6D3F-4FE7-94B6-7E6173F9AD16} = {2D5874CB-801E-4502-88A4-7D3320139288}
 	EndGlobalSection
 EndGlobal
