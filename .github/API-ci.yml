@@ -13,9 +13,9 @@ jobs:
         uses: actions/setup-dotnet@v2
         with:
           dotnet-version: '8.0.x'
-      - name: Install dependencies
+      - name: Install dependencies 
         run: dotnet restore
-        working-directory: ./src/api/
+        working-directory: ./src/api/ # test comment
       - name: Build 
         run: dotnet build --no-restore
         working-directory: ./src/api/
