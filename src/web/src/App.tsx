@@ -5,10 +5,10 @@ import MyAccount from './Pages/MyAccount';
 import MyOrder from './Pages/MyOrder';
 import MyOrders from './Pages/MyOrders';
 import NotFound from './Pages/NotFound';
-import SignIn from './Pages/SignIn';
 import NavBar from './Components/Navbar/index'
 import Clearance from './Pages/Clearance';
 import Jerseys from './Pages/Jerseys/indext';
+
 
 const AppRoutes = () => {
   let routes = useRoutes([
@@ -16,7 +16,6 @@ const AppRoutes = () => {
     {path: '/My Account' , element:  <MyAccount/>},
     {path: '/My Order' , element: <MyOrder/>},
     {path: '/My Orders' , element:  <MyOrders/>},
-    {path: '/Sign-in' , element:  <SignIn/>},
     {path: '/Clearance' , element:  <Clearance/>},
     {path: '/Jerseys' , element:  <Jerseys/>},
     {path: '*' , element:  <NotFound/>},
