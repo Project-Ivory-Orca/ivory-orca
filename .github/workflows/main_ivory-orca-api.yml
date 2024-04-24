@@ -64,5 +64,6 @@ jobs:
         with:
           app-name: 'ivory-orca-api'
           slot-name: 'Production'
+          publish-profile: ${{ secrets.deployment_token}}
           package: .
           
