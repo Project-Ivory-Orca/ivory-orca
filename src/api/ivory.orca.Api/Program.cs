@@ -12,6 +12,17 @@ builder.Services.AddDbContext<StoreContext>(options =>
     m => m.MigrationsAssembly("ivory.orca.Api"));
 } );
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder => 
+    {
+        builder.WithOrigins("http://localhost:5173")
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    });
+});
+
+
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Ivory.Orca.API", Version = "v1"});
@@ -27,5 +38,7 @@ app.UseSwaggerUI(c =>
 });
 
 app.MapControllers();
+
+app.UseCors();
 
 app.Run();
